@@ -1,0 +1,13 @@
+{
+  "parent": "footer-group.json",
+  "context": {
+    "market": "international"
+  },
+  "sections": {
+    "footer": {
+      "settings": {
+        "newsletter_heading": "This is localized to Mexico for English"
+      }
+    }
+  }
+}

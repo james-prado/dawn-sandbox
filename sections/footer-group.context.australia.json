@@ -1,0 +1,13 @@
+{
+  "parent": "footer-group.json",
+  "context": {
+    "market": "australia"
+  },
+  "sections": {
+    "footer": {
+      "settings": {
+        "newsletter_heading": "This is Australia copy"
+      }
+    }
+  }
+}

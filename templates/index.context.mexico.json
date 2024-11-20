@@ -1,0 +1,53 @@
+{
+  "parent": "index.json",
+  "context": {
+    "market": "mexico"
+  },
+  "sections": {
+    "featured_collection_FT7Ht": {
+      "type": "featured-collection",
+      "disabled": false,
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "header-d8b65a2a8d2e6c342b6e4dfd27f5e56d": null,
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "header-5dd8d76c79704be8d797fb02018c806f": null,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "header-fdbd01e129d820ed6bbfba760da99776": null,
+        "padding_top": 36,
+        "padding_bottom": 36
+      },
+      "blocks": {},
+      "block_order": []
+    },
+    "image_with_text_8LNHwU": {
+      "settings": {},
+      "blocks": {
+        "heading_pFwpCU": {
+          "settings": {
+            "heading": "Image with text for Mexico"
+          }
+        }
+      }
+    }
+  },
+  "order": ["image_banner", "featured_collection_FT7Ht", "image_with_text_8LNHwU"]
+}

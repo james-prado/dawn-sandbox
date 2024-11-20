@@ -1,4 +1,4 @@
-# Domaine Sandbox Theme
+# Dawn Sandbox Theme
 
 ### Requirements:
 

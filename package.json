@@ -1,7 +1,7 @@
 {
-  "name": "domaine-sandbox",
+  "name": "dawn-sandbox",
   "config": {
-    "store": "domaine-sandbox"
+    "store": "dawn-sandbox"
   },
   "scripts": {
     "lint": "eslint .",

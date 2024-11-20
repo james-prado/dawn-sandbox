@@ -39,6 +39,30 @@
     }
   {%- endstyle -%}
 
+  <script>
+    console.group("{{ product.title | escape }}")
+      console.log({{ product | json }})
+      console.log(`product.options_with_values: `, {{ product.options_with_values | json }})
+      console.log(`selected variant: `, {{ product.selected_or_first_available_variant | json }})
+      {% for option in product.options_with_values %}
+        console.group("option - {{ option.name }}")
+          console.log({{ option | json }})
+          console.log("{{ option.name }} values: ", {{ option.values | json }})
+          {% for value in option.values %}
+            console.group("{{ value }}")
+              console.log("value.id: ", {{ value.id | json }})
+              console.log("value.name: ", {{ value.name | json }})
+              console.log("value.product_url: ", {{ value.product_url | json }})
+              console.log("value.selected: ", {{ value.selected | json }})
+              console.log("value.swatch: ", {{ value.swatch | json }})
+              console.log("value.variant: ", {{ value.variant | json }})
+            console.groupEnd()
+          {% endfor %}
+        console.groupEnd()
+      {% endfor %}
+    console.groupEnd()
+  </script>
+
   <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
   {%- if product.quantity_price_breaks_configured? -%}

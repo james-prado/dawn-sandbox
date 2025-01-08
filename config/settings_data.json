@@ -146,6 +146,14 @@
         "type": "shopify://apps/rubik-variant-images/blocks/rubik-variant-images/e684282e-1343-4a60-8fa2-6393aded15f6",
         "disabled": false,
         "settings": {}
+      },
+      "9271244056961380716": {
+        "type": "shopify://apps/discount-kit/blocks/core/baf3f84c-ff2c-442d-a0fc-e8e16b834acd",
+        "disabled": false,
+        "settings": {
+          "auto_gift": true,
+          "refresh_on_cart_change": true
+        }
       }
     },
     "color_schemes": {

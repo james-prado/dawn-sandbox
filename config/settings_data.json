@@ -151,8 +151,15 @@
         "type": "shopify://apps/discount-kit/blocks/core/baf3f84c-ff2c-442d-a0fc-e8e16b834acd",
         "disabled": false,
         "settings": {
-          "auto_gift": true,
-          "refresh_on_cart_change": true
+          "auto_gift": false,
+          "refresh_on_cart_change": false
+        }
+      },
+      "6071110790918949010": {
+        "type": "shopify://apps/discount-kit/blocks/gift/baf3f84c-ff2c-442d-a0fc-e8e16b834acd",
+        "disabled": false,
+        "settings": {
+          "refresh": true
         }
       }
     },

@@ -54,15 +54,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "simple_bundles_kits_infinite_options_selector_VhDRtg": {
-          "type": "shopify://apps/simple-bundles-kits/blocks/infinite-options-selector/e553276b-36b2-446d-b80a-aa47fe5f96ac",
-          "settings": {
-            "select_placeholder": "Please select an option",
-            "disable_oos_options": true,
-            "custom_css": "",
-            "custom_js": ""
-          }
         }
       },
       "block_order": [
@@ -73,8 +64,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share",
-        "simple_bundles_kits_infinite_options_selector_VhDRtg"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,

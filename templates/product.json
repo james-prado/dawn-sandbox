@@ -54,6 +54,15 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "simple_bundles_kits_infinite_options_selector_VhDRtg": {
+          "type": "shopify://apps/simple-bundles-kits/blocks/infinite-options-selector/e553276b-36b2-446d-b80a-aa47fe5f96ac",
+          "settings": {
+            "select_placeholder": "Please select an option",
+            "disable_oos_options": true,
+            "custom_css": "",
+            "custom_js": ""
+          }
         }
       },
       "block_order": [
@@ -64,7 +73,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "simple_bundles_kits_infinite_options_selector_VhDRtg"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -99,31 +109,10 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "17368802976028dc65": {
-      "type": "apps",
-      "blocks": {
-        "simple_bundles_kits_infinite_options_selector_8qzmie": {
-          "type": "shopify://apps/simple-bundles-kits/blocks/infinite-options-selector/e553276b-36b2-446d-b80a-aa47fe5f96ac",
-          "settings": {
-            "select_placeholder": "Please select an option",
-            "disable_oos_options": true,
-            "custom_css": "",
-            "custom_js": ""
-          }
-        }
-      },
-      "block_order": [
-        "simple_bundles_kits_infinite_options_selector_8qzmie"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
     "main",
-    "related-products",
-    "17368802976028dc65"
+    "related-products"
   ]
 }

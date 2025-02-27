@@ -171,6 +171,14 @@
           "custom_css": "",
           "custom_js": ""
         }
+      },
+      "6475109725644987055": {
+        "type": "shopify://apps/stackable/blocks/embed/82544b1b-ebf7-42ac-a95c-5d81e2ae9218",
+        "disabled": false,
+        "settings": {
+          "custom-css": "",
+          "disable-checkout-listener": false
+        }
       }
     },
     "color_schemes": {

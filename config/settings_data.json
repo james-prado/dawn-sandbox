@@ -1,15 +1,15 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo_width": 90,
+    "logo_width": 180,
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
@@ -141,35 +141,6 @@
       }
     },
     "content_for_index": [],
-    "blocks": {
-      "9271244056961380716": {
-        "type": "shopify://apps/discount-kit/blocks/core/baf3f84c-ff2c-442d-a0fc-e8e16b834acd",
-        "disabled": false,
-        "settings": {}
-      },
-      "6071110790918949010": {
-        "type": "shopify://apps/discount-kit/blocks/gift/baf3f84c-ff2c-442d-a0fc-e8e16b834acd",
-        "disabled": false,
-        "settings": {
-          "auto_remove": true,
-          "refresh": false
-        }
-      },
-      "10012964898028446357": {
-        "type": "shopify://apps/discount-kit/blocks/gift_selector/baf3f84c-ff2c-442d-a0fc-e8e16b834acd",
-        "disabled": true,
-        "settings": {
-          "message": "You've unlocked a free gift! Make your selections now.",
-          "add_to_cart": "Add to cart",
-          "primary_background_color": "#ffffff",
-          "secondary_background_color": "#000000",
-          "primary_text_color": "#000000",
-          "secondary_text_color": "#ffffff",
-          "show_on_cart_page": false,
-          "stop_showing_after": 0
-        }
-      }
-    },
     "color_schemes": {
       "scheme-1": {
         "settings": {

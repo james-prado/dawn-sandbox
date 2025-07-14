@@ -146,6 +146,14 @@
         "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-global-embed/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
         "disabled": true,
         "settings": {}
+      },
+      "9271244056961380716": {
+        "type": "shopify://apps/discount-kit/blocks/core/baf3f84c-ff2c-442d-a0fc-e8e16b834acd",
+        "disabled": false,
+        "settings": {
+          "auto_gift": true,
+          "refresh_on_cart_change": false
+        }
       }
     },
     "color_schemes": {

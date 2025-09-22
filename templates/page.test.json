@@ -16,6 +16,17 @@
         "padding_bottom": 28
       }
     },
+    "custom_liquid_3Cpx6G": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<script src=\"https://app.unpkg.com/pdfjs-dist@5.4.149\" defer></script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "custom_liquid_AMChd3": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
@@ -29,6 +40,7 @@
   },
   "order": [
     "main",
+    "custom_liquid_3Cpx6G",
     "custom_liquid_AMChd3"
   ]
 }

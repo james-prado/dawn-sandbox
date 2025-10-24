@@ -73,7 +73,7 @@
   {%- endif -%}
 
   <script id="foobar">
-    console.log('')
+    console.log({{ product | json }})
   </script>
 
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}

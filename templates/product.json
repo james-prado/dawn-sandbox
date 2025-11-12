@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -29,6 +38,12 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "wrapped_app_block_product_XLhiaj": {
+          "type": "shopify://apps/wrapped/blocks/app-block.product/1714fc7d-e525-4a14-8c3e-1b6ed95734c5",
+          "settings": {
+            "launcher_variant": "button"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -53,6 +68,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "wrapped_app_block_product_XLhiaj",
         "buy_buttons",
         "description",
         "share"
@@ -92,5 +108,8 @@
       }
     }
   },
-  "order": ["main", "related-products"]
+  "order": [
+    "main",
+    "related-products"
+  ]
 }

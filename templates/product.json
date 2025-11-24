@@ -45,12 +45,6 @@
             "show_gift_card_recipient": true
           }
         },
-        "wrapped_app_block_product_XLhiaj": {
-          "type": "shopify://apps/wrapped/blocks/app-block.product/1714fc7d-e525-4a14-8c3e-1b6ed95734c5",
-          "settings": {
-            "launcher_variant": "button"
-          }
-        },
         "description": {
           "type": "description",
           "settings": {}
@@ -69,7 +63,6 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "wrapped_app_block_product_XLhiaj",
         "description",
         "share"
       ],

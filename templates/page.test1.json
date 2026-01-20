@@ -15,32 +15,9 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
-    },
-    "custom_liquid_3Cpx6G": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<!-- <input id=\"input\" type=\"file\" accept=\".pdf\" onchange=\"window.onPdfSelect( this );\" /> -->\n\n<button onclick=\"window.init()\">load pdf</button>\n<div id=\"pdf_view\" role=\"main\"></div>\n\n<script src=\"https://mozilla.github.io/pdf.js/build/pdf.mjs\" type=\"module\"></script>\n\n<script id=\"script\" type=\"module\">\n  const { pdfjsLib } = globalThis // Loaded via <script> tag, create shortcut to access PDF.js exports.\n  pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://mozilla.github.io/pdf.js/build/pdf.worker.mjs'\n\n  window.init = () => {\n    const url = 'https://cdn.shopify.com/s/files/1/0616/1711/1178/files/09_WC_Hybrid_September_2025_ECatalog-linked.pdf'\n    window.initPDFViewer(url, document.querySelector('#pdf_view'))\n  }\n\n  window.onPdfSelect = (inputElement) => {\n    const url = URL.createObjectURL(inputElement.files[0])\n    const element = document.querySelector('#pdf_view')\n    console.log(url.toString(), element.id)\n    initPDFViewer(url, element)\n  }\n\n  window.initPDFViewer = (url, element) => {\n    return pdfjsLib.getDocument(url).promise.then((pdf) => {\n      console.log('PDF loaded')\n      renderPDF(pdf, element)\n    })\n  }\n\n  window.renderPDF = (pdf, element) => {\n    element.textContent = '' // clear canvases\n    for (let i = 1; i <= pdf.numPages; i++) {\n      pdf.getPage(i).then((page) => {\n        renderPage(page, element)\n      })\n    }\n  }\n\n  window.renderPage = (page, element) => {\n    console.log('Page loaded')\n    const viewport = page.getViewport({ scale: 1 })\n\n    // Prepare canvas using PDF page dimensions\n    const canvas = document.createElement('canvas')\n    canvas.height = viewport.height\n    canvas.width = viewport.width\n    element.appendChild(canvas)\n\n    // Render PDF page into canvas context\n    const renderContext = {\n      canvasContext: canvas.getContext('2d'),\n      viewport,\n    }\n\n    page.render(renderContext).promise.then(() => {\n      console.log('Page rendered')\n    })\n  }\n</script>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "custom_liquid_AMChd3": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<object data=\"https://cdn.shopify.com/s/files/1/0616/1711/1178/files/09_WC_Hybrid_September_2025_ECatalog-linked.pdf\" type=\"application/pdf\" style=\"width: 100vw; height: 100vh;\">\n      <embed src=\"https://cdn.shopify.com/s/files/1/0616/1711/1178/files/09_WC_Hybrid_September_2025_ECatalog-linked.pdf\" type=\"application/pdf\">\n\t\t\t\t<p>This browser does not support PDFs. Please download the PDF to view it: <a href=\"https://cdn.shopify.com/s/files/1/0616/1711/1178/files/09_WC_Hybrid_September_2025_ECatalog-linked.pdf\">Download PDF</a>.</p>\n      </embed>\n \t\t</object>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
-    "main",
-    "custom_liquid_3Cpx6G",
-    "custom_liquid_AMChd3"
+    "main"
   ]
 }
